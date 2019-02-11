@@ -1,0 +1,20 @@
+{
+  "name": "node_mysql",
+  "version": "1.0.0",
+  "description": "Nodejs with MySQL ",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pranjal nartam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "*",
+    "morgan": "^1.9.1",
+    "mysql": "*",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.42.0"
+  }
+}
